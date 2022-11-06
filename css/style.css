@@ -80,10 +80,7 @@
             
          }
          .page-header{
-            max-width: 1600px;
-            height: 80px;
-            margin-right: auto;
-            margin-left: auto;
+           
             
         box-shadow: 0px 4px 4px #F5F5F5;
         border-bottom-width: 1px;
@@ -125,7 +122,7 @@
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
         }
         .nav-link:hover,
         .nav-link:focus {
@@ -134,11 +131,25 @@
         .nav-link:active{
             color: var(--accent-color);
         }
+        .nav-link-portfolio{
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
         .mail{
         margin-right: 50px;
         }
-        .contacts-nav .link{   
-    
+        .contacts-nav-link:hover,
+        .contacts-nav-link:focus{
+            color: var(--accent-color);
+        }
+        .contacts-nav-link{   
+            display: block;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
         color: var(--secondary-text-color);
         }
          /* site nav */
@@ -167,18 +178,9 @@
             text-align: center;
             background-color: var(--footer-bg-color);
             }
-            .overlay    {
-            max-width: 1600px;
-             height: 600px;
-             margin-right: auto;
-             margin-left: auto;
+          
                 
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-                
-              }
+              
             .hero-container {
                 
             padding: 200px 277px;
@@ -205,7 +207,7 @@
         font-size: 16px;
         text-decoration: none;
         border: 1px ;
-       
+        border-radius: 4px;
         }
      .button.primary {
         border-radius: 4px;
@@ -222,12 +224,14 @@
         
         }
         .button.secondary {
-        font-weight: 400;
+        font-style: normal;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 26px;;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
         background-color: var(--secondary-bg-color);
+        
         }
         .button.secondary:hover,
         .button.secondary:focus {
@@ -239,13 +243,17 @@
         /* Uppercase titles */
         .uptitle {
         margin-bottom:10px ;
-        font-size: inherit;
+        font-style: normal;
         font-weight: 700;
-        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase
         }
         /* features */
         .features {
             display: flex;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
         .uptitle.features-title {
          color: var(--primary-text-color);
@@ -303,8 +311,7 @@
                 
         /* Team section */
         .team-section{
-        max-width: 1600px;
-      
+        
         margin-right: auto;
         margin-left: auto;
             background-color: var(--secondary-bg-color);
@@ -312,8 +319,8 @@
         .team {
             
         padding-inline-start:0;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
+        margin: 0;
+        
         font-size: 16px;
         line-height: 1.19;
         display: flex;
@@ -353,7 +360,7 @@
         margin-bottom: 16px;}
         /* Footer */
         .page-footer {
-        max-width: 1600px;
+        
         height: 252px;
         margin-right: auto;
         margin-left: auto;
@@ -366,7 +373,7 @@
         /* address */
         
         .address-iten{
-            padding-top: 20px;
+            margin-top: 20px;
             font-size: 0;
         }
         .address .link{
@@ -431,8 +438,7 @@
             background: #ffffff;
             /* border: 1px solid #eeeeee; */
             box-sizing: border-box;
-            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-            1px 4px 6px rgba(0, 0, 0, 0.16);
+           
             }
         
         .iten{
