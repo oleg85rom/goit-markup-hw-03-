@@ -262,7 +262,7 @@
         /* features */
         .features {
             display: flex;
-            padding-bottom: 0;
+          
             }
         .uptitle.features-title {
          color: var(--primary-text-color);
@@ -307,6 +307,7 @@
             margin-right: auto;
             margin-left: auto;
             vertical-align: bottom;
+            padding-top: 0;
              }
          .work-item {
             position: relative;
